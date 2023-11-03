@@ -12,15 +12,8 @@ px      68    160    252    344    436    528    620    712    */
   .menu .navbar-default .navbar-nav > li > a {
     padding: 5px 7px;
   }
-  #banner .block .download-btn li {
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  #banner .block .download-btn li a {
-    display: block;
-  }
   #banner {
-    padding: 40px 0;
+    padding: 40px 10px;
   }
   #banner h1 {
     font-size: 40px;
@@ -35,6 +28,18 @@ px      68    160    252    344    436    528    620    712    */
   #banner .third-service {
     margin-top: 20px;
   }
+  #banner .service-item {
+    padding: 5px 15px;
+  }
+
+  #testimonials .title,
+  #playlists .title,
+  #service .title {
+    margin-bottom: 10px;
+  }
+  #testimonials .test-video {
+    margin-bottom: 10px;
+  }
   #service .block {
     margin-bottom: 40px;
   }
@@ -45,11 +50,11 @@ px      68    160    252    344    436    528    620    712    */
     padding: 30px 0;
   }
   #feature .title {
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
   #feature .block img {
-    padding-top: 40px;
+    padding-top: 0px;
   }
   #feature .feature-item {
     margin-top: 10px;
@@ -79,7 +84,7 @@ px      68    160    252    */
     position: relative;
   }
   nav .container-fluid {
-    display: block
+    display: block;
   }
   .footer-logo img {
     width: 100px;
@@ -90,28 +95,49 @@ px      68    160    252    */
   #feature {
     padding: 30px 0;
   }
-  #banner .block .download-btn li {
-    width: 100%;
-    margin-bottom: 5px;
-  }
-  #banner .block .download-btn li a {
-    display: block;
-  }
   #banner {
     padding: 40px 0;
   }
-  #banner h1 {
-    font-size: 40px;
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .button-container button  {
+    font-size: 15px;
+  }
+  #introduction-video iframe,
+  #testimonials iframe,
+  #playlists iframe {
+    width: 90vw;
   }
   #banner .first-service,
   #banner .third-service {
     margin-top: 20px;
+  }
+  #banner .service-item {
+    padding: 5px 15px;
+  }
+  #testimonials .title,
+  #playlists .title,
+  #service .title {
+    margin-bottom: 10px;
+  }
+  #testimonials .test-video {
+    margin-bottom: 10px;
   }
   #service .service-wrapper {
     padding: 60px 0;
   }
   #service .block {
     margin-bottom: 20px;
+  }
+  #feature .feature-item {
+    margin-top: 10px;
   }
   #playlists iframe {
     width: 350px;
@@ -125,8 +151,9 @@ px      68    160    252    */
   #booking .form-inline .form-group input {
     width: 100%;
   }
-  footer .footer-logo {
-    display: inline-block;
+  footer.fadeInUp {
+    animation: none;
+    visibility: visible !important;
   }
 }
 /*		Wide Mobile Layout: 480px.
